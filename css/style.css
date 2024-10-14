@@ -406,7 +406,7 @@ html, body{ height: 100%; }
     color: #fff;
 }
 .banner-text h1 {
-	font-family: 'nautilus_pompiliusregular';
+/* 	font-family: 'nautilus_pompiliusregular'; */
     letter-spacing: 2.7px;
     position: relative;
     display: inline-block;
@@ -417,8 +417,8 @@ html, body{ height: 100%; }
 	padding-top:100px;
 }
 
-.banner-text h2 {
-	font-family: 'nautilus_pompiliusregular';
+ .banner-text h2 {
+/* 	font-family: 'nautilus_pompiliusregular'; */ */
     letter-spacing: 2.7px;
     position: relative;
 	font-size: 37px;
@@ -604,7 +604,7 @@ html, body{ height: 100%; }
 
 .block-title{
 	font-size:52px;
-	font-family: 'nautilus_pompiliusregular';
+/* 	font-family: 'nautilus_pompiliusregular'; */
 	font-weight: bold;
 }
 
@@ -1690,7 +1690,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-a h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+/*     font-family: 'nautilus_pompiliusregular'; */
 }
 .footer-box-a p{
 	font-size: 14px;
