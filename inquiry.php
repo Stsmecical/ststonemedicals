@@ -52,7 +52,7 @@ $headers .= 'From: stsmedicals.com '. $name  . '<info@stsmedicals.com>' . "\r\n"
        
   #echo"<script>alert('Your mail has been sent.'); window.location='index.php'</script>";
  
-   header('Location: thanks.php');
+   header('Location: thanks.html');
   //echo 'Message has been sent';
   
 exit;
