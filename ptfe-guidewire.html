@@ -284,7 +284,7 @@ include_once 'include/header.php';
     </header>
     <!-- End Header Area -->
 
-    
+
        <!-- Start Page Title Area -->
         <section class="page-title-area page-title-bg2">
             <div class="d-table">
@@ -523,6 +523,45 @@ Product Feature:</h5>
       
   </tbody>
 </table>
+<div class="contact-form">
+  <form method="post" action="inquiry.php">
+      <div class="row">
+          <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
+              </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="">
+              </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+              <div class="form-group">
+                  <input type="text" name="phone" id="phone_number" class="form-control" placeholder="Phone" required="">
+              </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+              <div class="form-group">
+                  <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                  
+              </div>
+          </div> 
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 captcha-key">
+          <div class="g-recaptcha" data-sitekey="6LfiAXEgAAAAAGYnI8T0ncAEGXbX898visNumJww" required=""><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-ql7jxmoi7w11" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfiAXEgAAAAAGYnI8T0ncAEGXbX898visNumJww&amp;co=aHR0cHM6Ly9zdHNtZWRpY2Fscy5jb206NDQz&amp;hl=en&amp;v=lqsTZ5beIbCkK4uGEGv9JmUR&amp;size=normal&amp;cb=oegk6ykhu4ym"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+              <button type="submit" class="btn btn-primary">Send Message <i class="flaticon-right-chevron"></i></button>
+              
+          </div>
+      </div>
+  </form>
+</div>
                         
                         <p>SHINEWIRE<sup>TM</sup> is a range of complete guidewire, intended for use of introduction spring winding, standard
 & special sizes, small diameter less grinding, specially tip forming, J-Tip, Straight Tip, Angle & other shape &
