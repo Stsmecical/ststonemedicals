@@ -255,6 +255,39 @@ section.health {
 }
 
     </style>
+   <script type="text/javascript"
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+ emailjs.init({
+   publicKey: "vzUNKD6eO41_L0Hqq",
+ });
+})();
+</script>
+
+
+
+<script>
+       function sendMail(){
+   
+   let parms = {
+   
+   name: document.getElementById("name").value,
+   
+   email: document.getElementById("email").value,
+   
+   subject: document.getElementById("subject").value,
+   
+   message: document.getElementById("message").value,
+   
+   }
+   
+   emailjs.send("service_hz1unff","template_dte4d9s", parms).then(alert("Email Sent!!"))
+   
+           
+       }
+   </script>
 </head>
 
 <body>
@@ -885,7 +918,7 @@ section.health {
                 <div class="row">
                     <div class="col-lg-7 col-md-12">
                         <div class="contact-form">
-                            <form method="post" action="inquiry.php">
+                            <form method="post" action="thanks.html">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-group">
@@ -901,7 +934,7 @@ section.health {
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
-                                            <input type="text" name="phone" id="phone_number" class="form-control" placeholder="Phone" required>
+                                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Phone" required>
                                         </div>
                                     </div>
 
@@ -912,12 +945,12 @@ section.health {
                                         </div>
                                     </div> 
                                     
-                                    <div class="col-sm-12 col-md-12 col-lg-12 captcha-key">
+                                    <!-- <div class="col-sm-12 col-md-12 col-lg-12 captcha-key">
                                     <div class="g-recaptcha" data-sitekey="6LfiAXEgAAAAAGYnI8T0ncAEGXbX898visNumJww" required=""></div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="btn btn-primary">Send Message <i class="flaticon-right-chevron"></i></button>
+                                        <button type="submit" class="btn btn-primary" onclick="sendMail()">Send Message <i class="flaticon-right-chevron"></i></button>
                                         
                                     </div>
                                 </div>
