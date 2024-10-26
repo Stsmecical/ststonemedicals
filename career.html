@@ -62,6 +62,39 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <!-- Responsive CSS -->
 <link rel="stylesheet" href="assets/css/responsive.css">
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init({
+publicKey: "vzUNKD6eO41_L0Hqq",
+});
+})();
+</script>
+
+
+
+<script>
+    function sendMail(){
+
+let parms = {
+
+name: document.getElementById("name").value,
+
+email: document.getElementById("email").value,
+
+subject: document.getElementById("subject").value,
+
+message: document.getElementById("message").value,
+
+}
+
+emailjs.send("service_hz1unff","template_dte4d9s", parms).then(alert("Email Sent!!"))
+
+        
+    }
+</script>
 
     <style>
         .top-header {
@@ -286,7 +319,7 @@
                     <div class="page-title-content">
                         <h2>Career</h2>
                         <ul>
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#">Home</a></li>
                             <li>Career</li>
                         </ul>
                     </div>
@@ -337,7 +370,7 @@
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
-                                    <button type="submit" class="btn btn-primary">Send Message <i class="flaticon-right-chevron"></i></button>
+                                    <button type="submit" class="btn btn-primary" onclick="sendMail()">Send Message <i class="flaticon-right-chevron"></i></button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>
                                 </div>
