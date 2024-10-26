@@ -7,7 +7,7 @@ Flaticon icon font: Flaticon
 	font-family: "Flaticon";
 	src: url("/fonts/Flaticon.eot");
 	src: url("/fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
-	/* url("/fonts/Flaticon.woff2") format("woff2"), */
+	url("/fonts/Flaticon.woff2") format("woff2"),
 	url("/fonts/Flaticon.woff") format("woff"),
 	url("/fonts/Flaticon.ttf") format("truetype"),
 	url("/fonts/Flaticon.svg#Flaticon") format("svg");
@@ -26,15 +26,7 @@ Flaticon icon font: Flaticon
 	font-style: normal;
 }
 
-
-/* .flaticon-canape:before { content: "\f100"; }
-.flaticon-dinner:before { content: "\f101"; }
-.flaticon-desert:before { content: "\f102"; }
-.flaticon-coffee:before { content: "\f103"; } */
 .flaticon-right-chevron:before { content: "\f100"; }
-.flaticon-left-chevron:before { content: "\f101"; }
-
-/* .flaticon-right-chevron:before { content: "\f100"; }
 .flaticon-left-chevron:before { content: "\f101"; }
 .flaticon-doctor:before { content: "\f102"; }
 .flaticon-care:before { content: "\f103"; }
@@ -63,4 +55,4 @@ Flaticon icon font: Flaticon
 .flaticon-liver:before { content: "\f11a"; }
 .flaticon-kidney:before { content: "\f11b"; }
 .flaticon-ekg:before { content: "\f11c"; }
-.flaticon-radiation:before { content: "\f11d"; } */
+.flaticon-radiation:before { content: "\f11d"; }
