@@ -26,7 +26,13 @@ Flaticon icon font: Flaticon
 	font-style: normal;
 }
 
-.flaticon-right-chevron:before { content: "\f100"; }
+
+.flaticon-canape:before { content: "\f100"; }
+.flaticon-dinner:before { content: "\f101"; }
+.flaticon-desert:before { content: "\f102"; }
+.flaticon-coffee:before { content: "\f103"; }
+
+/* .flaticon-right-chevron:before { content: "\f100"; }
 .flaticon-left-chevron:before { content: "\f101"; }
 .flaticon-doctor:before { content: "\f102"; }
 .flaticon-care:before { content: "\f103"; }
@@ -55,4 +61,4 @@ Flaticon icon font: Flaticon
 .flaticon-liver:before { content: "\f11a"; }
 .flaticon-kidney:before { content: "\f11b"; }
 .flaticon-ekg:before { content: "\f11c"; }
-.flaticon-radiation:before { content: "\f11d"; }
+.flaticon-radiation:before { content: "\f11d"; } */
