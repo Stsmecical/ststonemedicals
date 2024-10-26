@@ -27,10 +27,12 @@ Flaticon icon font: Flaticon
 }
 
 
-.flaticon-canape:before { content: "\f100"; }
+/* .flaticon-canape:before { content: "\f100"; }
 .flaticon-dinner:before { content: "\f101"; }
 .flaticon-desert:before { content: "\f102"; }
-.flaticon-coffee:before { content: "\f103"; }
+.flaticon-coffee:before { content: "\f103"; } */
+.flaticon-right-chevron:before { content: "\f100"; }
+.flaticon-left-chevron:before { content: "\f101"; }
 
 /* .flaticon-right-chevron:before { content: "\f100"; }
 .flaticon-left-chevron:before { content: "\f101"; }
