@@ -962,40 +962,11 @@ section.health {
                                         <button type="submit" class="btn btn-primary" onclick="sendMail()">Send Message <i class="flaticon-right-chevron"></i></button>
                                         
                                     </div>
+                                  
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <script>
-                        document.getElementById('myform').addEventListener('submit', function(event) {
-                            // Prevent the default form submission
-                            event.preventDefault();
-                        
-                            // Get the values of the fields
-                            const name = document.getElementById('name').value.trim();
-                            const email = document.getElementById('email').value.trim();
-                            const subject = document.getElementById('subject').value.trim();
-                            const message = document.getElementById('message').value.trim();
-                        
-                            // Check if all fields have data
-                            if (name && email && subject && message) {
-                                // All fields have data; perform the sendMail function here
-                                sendMail();
-                        
-                                // Optionally display a success message
-                                document.getElementById('messageFeedback').innerText = "Form submitted successfully!";
-                            } else {
-                                // Not all fields have data
-                                document.getElementById('messageFeedback').innerText = "Please fill in all fields.";
-                            }
-                        });
-                        
-                        // Example sendMail function
-                        function sendMail() {
-                            // Your mail sending logic here
-                            console.log("Sending mail...");
-                        }
-                        </script>
                   
 
                     <div class="col-lg-5 col-md-12">
