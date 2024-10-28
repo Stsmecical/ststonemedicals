@@ -334,13 +334,27 @@
   
 
                                     <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="btn btn-primary" onclick="sendMail()">Send Message <i class="flaticon-right-chevron"></i></button>
+                                        <button type="submit" class="btn btn-primary">Send Message <i class="flaticon-right-chevron"></i></button>
                                         
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
+                    <script>
+                        document.getElementById('submitBtn').onclick = function() {
+                          const name = document.getElementById('name').value;
+                          const email = document.getElementById('email').value;
+                      
+                          if (name && email) {
+                            onclick=sendMail()
+                          
+                            // You can submit the form or do something else
+                          } else {
+                            console.log('Please fill out all fields.');
+                          }
+                        };
+                      </script>
 
                     <div class="col-lg-5 col-md-12">
                         <div class="contact-info">
