@@ -626,6 +626,9 @@ padding-left: 20px;
   padding-right: 0;
 	white-space: nowrap;
 }
+ul.dropdown-menu.wrapper.wrapper-head {
+    white-space: normal;
+}
 
 .fovia-nav .navbar .navbar-nav .nav-item a {
   font-size: 14px;
